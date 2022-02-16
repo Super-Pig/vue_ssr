@@ -1,24 +1,21 @@
 # vue_ssr
 
-## Project setup
-```
-yarn install
-```
+## features:
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- 基于 prerender-spa-plugin webpack 插件实现 ssr
+- 根据脚本自动生成离线包资源
 
-### Compiles and minifies for production
+## 编译 && 离线包生成
+
 ```
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## 附录
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+离线包方案:
+
+> https://github.com/mcuking/blog/issues/63
+
+
+
